@@ -1,5 +1,5 @@
-	var z = 1
-	if(z == 1)
+	var z = 3
+	if(z == 3)
 	{
 	var z = 2;
 	var y = Math.floor(Math.random() * 100 + 1);
