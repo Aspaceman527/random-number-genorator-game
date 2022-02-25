@@ -1,6 +1,6 @@
-	a = 1
-	while(a == 1){
 	var z = 3
+	var a = 1
+	while(a == 1){
 	if(z == 3){
 	var z = 2;
 	var y = Math.floor(Math.random() * 100 + 1);
@@ -12,8 +12,8 @@ var x = document.getElementById("guessField").value;
 if(x == y)
 {	
 	alert("CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN "
-			+ guess + " GUESS ");
-	var z = 1;
+			+ guess + " GUESSES ");
+	var z = 3;
 }
 else if(x > y)
 {	
