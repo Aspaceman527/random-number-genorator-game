@@ -14,11 +14,11 @@ if(x == y)
 else if(x > y)
 {	
 	guess++;
-	alert("TRY AGAIN");
+	alert("LOWER");
 }
 else
 {
 	guess++;
-	alert("TRY AGAIN")
+	alert("HIGHER")
 }
 }
